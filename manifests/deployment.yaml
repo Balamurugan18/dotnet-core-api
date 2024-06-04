@@ -5,7 +5,7 @@ metadata:
   labels:
     app: autodeployXX
     kubernetes.azure.com/generator: devhub
-  namespace: namespace-workflow-1717507761083
+  namespace: namespace-workflow-1717517007491
 spec:
   replicas: 1
   selector:
@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: autodeployXX
-          image: acrworkflow1717507761083.azurecr.io/image-workflow-1717507761083:latest
+          image: acrworkflow1717517007491.azurecr.io/image-workflow-1717517007491:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 5000
